@@ -148,6 +148,18 @@ h2 {
   justify-content: center;
 }
 
+.projects {
+  text-align: center;
+  padding-top: 40px; /* Add space from the top */
+}
+
+.projects-title {
+  text-align: center;
+  font-size: 32px;
+  color: forestgreen;
+  margin-bottom: 20px;
+}
+
 .project-card {
   background: #f0fff0;
   border: 1px solid #a3d9a5;
