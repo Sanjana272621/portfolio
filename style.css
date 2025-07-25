@@ -55,14 +55,30 @@ header .container {
 
 /* Hero Section */
 .hero {
-  height: 90vh;
-  background: linear-gradient(rgba(0, 100, 0, 0.6), rgba(0, 100, 0, 0.6)), url('https://source.unsplash.com/1600x900/?forest,technology') no-repeat center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  color: white;
-  padding: 0 20px;
+  padding: 50px 10%;
+  height: 100vh;
+  background: rgb(7, 123, 7);
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-image img {
+  width: 300px;      /* Adjust size */
+  height: auto;
+  border-radius: 10px; /* Optional rounded edges */
+  object-fit: cover;
 }
 
 .hero h1 {
