@@ -219,6 +219,46 @@ h2 {
   background: #2e8b57;
 }
 
+.contact {
+  background: #f0fff0;
+  padding: 60px 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contact-intro {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin: 12px 0;
+  font-size: 18px;
+}
+
+.contact-list a {
+  color: forestgreen;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.contact-list a:hover {
+  color: #2e8b57;
+}
+
+.contact-list i {
+  margin-right: 8px;
+  color: forestgreen;
+  font-size: 20px;
+}
+
 /* Footer */
 footer {
   text-align: center;
